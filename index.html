@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="blur"></div>
+      <section class="card">
+        <div class="columns">
+          <div class="right">
+            <div class="search">
+              <input
+                type="text"
+                placeholder="Enter city name"
+                spellcheck="false"
+              />
+              <button>
+                <img src="icons/search.svg" alt="search button" />
+              </button>
+            </div>
+            <div class="error">
+              <p>Invalid city name</p>
+            </div>
+            <div class="weather">
+              <div class="weather_flex">
+                <img
+                  src="icons/cloud-sun-rain-alt.svg"
+                  alt="rain icon"
+                  class="weather-icon"
+                />
+                <h1 class="temp">22°C</h1>
+                <h2 class="city">New York</h2>
+              </div>
+              <div class="details">
+                <div class="col">
+                  <img src="icons/humidity.svg" alt="Humidity icon" />
+                  <div>
+                    <p class="humidity">50%</p>
+                    <p class="humidity_text">Humidity</p>
+                  </div>
+                </div>
+                <div class="col">
+                  <img src="icons/wind.svg" alt="Wind icon" />
+                  <div>
+                    <p class="wind">15 km/h</p>
+                    <p class="wind_text">Wind Speed</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left">
+            <div class="display_date">
+              <div class="box">
+                <div class="date">
+                  <h1>Wednesday</h1>
+                  <p>Description</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
