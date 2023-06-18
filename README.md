@@ -6,3 +6,15 @@
 
 - The app have an icon who search for the city that the user input.
 - When the climate data is displayed, it change the background images keep in mind the climate.
+
+<h4 align="center">Several states of the atmosphere</h3>
+
+Rainy: ![Cloudy climate](/design/rainy.webp)
+
+---
+
+Cloudy: ![Cloudy climate](/design/cloudy.webp)
+
+---
+
+Clearly: ![Cloudy climate](/design/clearly.webp)
