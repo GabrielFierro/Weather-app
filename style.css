@@ -236,7 +236,6 @@ body {
 
   .weather_flex {
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
     margin-top: 20px;
   }
@@ -248,7 +247,6 @@ body {
 
   .weather h1 {
     font-size: 64px;
-    font-weight: 500;
   }
 
   .weather h2 {
@@ -258,13 +256,11 @@ body {
   }
 
   .details {
-    justify-content: space-around;
     margin-top: 30px;
   }
 
   .col img {
     width: 100px;
-    margin-right: 10px;
   }
 
   .humidity,
@@ -300,7 +296,6 @@ body {
 
   .weather h1 {
     font-size: 48px;
-    font-weight: 500;
   }
 
   .weather h2 {
@@ -332,12 +327,10 @@ body {
     margin-left: 15px;
     width: 35px;
     height: 35px;
-    cursor: pointer;
   }
 
   .weather h1 {
     font-size: 32px;
-    font-weight: 500;
   }
 
   .weather h2 {
@@ -347,7 +340,6 @@ body {
   }
 
   .details {
-    display: flex;
     flex-direction: column;
     padding: 10px;
     margin-top: 0;
@@ -355,7 +347,6 @@ body {
 
   .col {
     width: 100%;
-    display: flex;
     align-items: flex-start;
     justify-content: center;
     padding: 10px;
