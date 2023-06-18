@@ -148,7 +148,7 @@ body {
   outline: 0;
   background-color: transparent;
   border-radius: 50%;
-  width: 100%;
+  width: 35px;
   height: auto;
   cursor: pointer;
 }
