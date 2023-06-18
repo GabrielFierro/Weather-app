@@ -78,7 +78,7 @@ body {
   padding: 1.5rem;
 }
 
-.date h1 {
+.date h2 {
   font-size: 64px;
   font-weight: 600;
 }
@@ -377,7 +377,7 @@ body {
     justify-content: center;
   }
 
-  .date h1 {
+  .date h2 {
     font-size: 32px;
     font-weight: 600;
   }
