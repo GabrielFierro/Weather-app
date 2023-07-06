@@ -18,3 +18,13 @@ Cloudy: ![Cloudy climate](/design/cloudy.webp)
 ---
 
 Clearly: ![Cloudy climate](/design/clearly.webp)
+
+<h3 align='center'>Technologies used in the project</h3>
+
+- HTML
+- CSS
+- Javascript
+- Weather API
+- Prettier
+- ESLint
+- Git
